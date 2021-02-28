@@ -61,7 +61,7 @@ ul.numbers {
 
 /* Additional Style */
 body {
-    background-image: url('https://pixabay.com/get/g4f102f084df38aa7058dc2a75d4f596f2bebef763528de0dcb17caebbc21e5249dfae5e9f14583139e342b674d30a804f5b78ce846b7409ff3255087b9a0d7f4_1920.jpg');
+    background-image: url(img/background.jpg);
     background-size: 100vmax;
 }
 
