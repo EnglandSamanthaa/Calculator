@@ -3,12 +3,11 @@
   box-sizing: border-box;
 }
 
-
-body{
+/* Layout */
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
- 
 }
 
 .calculator{
@@ -41,15 +40,43 @@ ul.numbers {
 }
 
 .numbers li{
+    display: flex;
+    justify-content: center;
     height: 100px;
     width: 100px;
     border: 2px solid black;
     margin: 5px;
+    padding-top: 25px;
 }
 
 .operations li{
+    display: flex;
+    justify-content: center;
     height: 83px;
     width: 90px;
     border: 2px solid black;
     margin: 5px;
+    padding-top: 25px;
+}
+
+/* Additional Style */
+body {
+    background-image: url('https://pixabay.com/get/g4f102f084df38aa7058dc2a75d4f596f2bebef763528de0dcb17caebbc21e5249dfae5e9f14583139e342b674d30a804f5b78ce846b7409ff3255087b9a0d7f4_1920.jpg');
+    background-size: 100vmax;
+}
+
+.calculator{
+    background-color: rgba(0, 0, 0, 0.74);
+    font-size: xx-large;
+}
+
+li {
+    background-color: rgba(16, 101, 170, 0.836);
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+#answer {
+    background-color: rgba(255, 255, 255, 0.87);
+    color: black;
 }
