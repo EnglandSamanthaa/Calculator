@@ -8,32 +8,41 @@
     <link rel="stylesheet" href="css/normalize.css">
     <title>Calculator</title>
 </head>
+
 <body>
     <section class="calculator">
-        <p id="answer"></p>
+        <div id="output">
+            <p id="display2">0</p>
+            <div class="row">
+                <p id="previousEquation">0</p>
+                <p id="currentInput-results">0</p>
+            </div>
+        </div>
 
-        <div id="inputButtons">
-            <ul class="numbers">
-                <li id="nine">9</li>
-                <li id="eight">8</li>
-                <li id="seven">7</li>
-                <li id="six">6</li>
-                <li id="five">5</li>
-                <li id="four">4</li>
-                <li id="three">3</li>
-                <li id="two">2</li>
-                <li id="one">1</li>
-                <li id="zero">0</li>
-                <li id="clearAll">AC</li>
-                <li id="clearScreen">C</li>
-            </ul>
-            <ul class="operations">
-                <li id="add">+</li>
-                <li id="subtract">-</li>
-                <li id="divide">/</li>
-                <li id="multiply">*</li>
-                <li id="equals">=</li>
-            </ul>
+        <div id="inputButtons">   
+                <button class="delete" id="clearAll">AC</button>
+                <button class="delete" id="clearLastInput">DEL</button>
+                <button class="operator" id="divide">&#247</button>
+
+                <button class="number" id="seven">7</button>
+                <button class="number" id="eight">8</button>
+                <button class="number" id="nine">9</button> 
+                <button class="operator" id="times">&times;</button>
+
+                <button class="number" id="four">4</button>
+                <button class="number" id="five">5</button>
+                <button class="number" id="six">6</button>
+                <button class="operator" id="subtract">-</button>
+
+                <button class="number" id="one">1</button>
+                <button class="number" id="two">2</lbutton>
+                <button class="number" id="three">3</button>
+                <button class="operator" id="add">+</button>
+                
+                <button class="number" id="zero">0</button>
+                <button class="number" id="dec">.</button>
+                <button id="equals">=</button>
+
         </div>
 
     </section>
